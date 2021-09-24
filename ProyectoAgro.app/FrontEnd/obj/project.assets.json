@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\FrontEnd\\FrontEnd.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\FrontEnd.csproj",
       "projectName": "FrontEnd",
-      "projectPath": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\FrontEnd\\FrontEnd.csproj",
+      "projectPath": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\FrontEnd.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\FrontEnd\\obj\\",
+      "outputPath": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
