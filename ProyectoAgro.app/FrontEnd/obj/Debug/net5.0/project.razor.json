@@ -15624,6 +15624,21 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\cinco.cshtml",
+      "TargetPath": "Pages\\Paginas\\cinco.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\diez.cshtml",
+      "TargetPath": "Pages\\Paginas\\diez.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\nueve.cshtml",
+      "TargetPath": "Pages\\Paginas\\nueve.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -15631,6 +15646,16 @@
     {
       "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\ocho.cshtml",
+      "TargetPath": "Pages\\Paginas\\ocho.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\Tres.cshtml",
+      "TargetPath": "Pages\\Paginas\\Tres.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15644,8 +15669,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\Pagina1.cshtml",
-      "TargetPath": "Pages\\Paginas\\Pagina1.cshtml",
+      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\Dos.cshtml",
+      "TargetPath": "Pages\\Paginas\\Dos.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\seis.cshtml",
+      "TargetPath": "Pages\\Paginas\\seis.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15654,8 +15684,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\siete.cshtml",
+      "TargetPath": "Pages\\Paginas\\siete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\Cuatro.cshtml",
+      "TargetPath": "Pages\\Paginas\\Cuatro.cshtml",
       "FileKind": "mvc"
     }
   ],
