@@ -15624,6 +15624,21 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\cinco.cshtml",
+      "TargetPath": "Pages\\Paginas\\cinco.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\diez.cshtml",
+      "TargetPath": "Pages\\Paginas\\diez.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\nueve.cshtml",
+      "TargetPath": "Pages\\Paginas\\nueve.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -15631,6 +15646,11 @@
     {
       "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\ocho.cshtml",
+      "TargetPath": "Pages\\Paginas\\ocho.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15654,8 +15674,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\seis.cshtml",
+      "TargetPath": "Pages\\Paginas\\seis.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\Pages\\Paginas\\siete.cshtml",
+      "TargetPath": "Pages\\Paginas\\siete.cshtml",
       "FileKind": "mvc"
     },
     {
