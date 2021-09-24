@@ -80,3 +80,9 @@ C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Deb
 C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\FrontEnd.pdb
 C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\FrontEnd.genruntimeconfig.cache
 C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\FrontEnd.csproj.CopyComplete
+C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\cinco.cshtml.g.cs
+C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\diez.cshtml.g.cs
+C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\nueve.cshtml.g.cs
+C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\ocho.cshtml.g.cs
+C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\seis.cshtml.g.cs
+C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\siete.cshtml.g.cs
