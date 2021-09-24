@@ -1,30 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\VitalHealth\\ProyectoAgro.app\\ProyectoAgro.app.Persistencia\\ProyectoAgro.app.Persistencia.csproj": {}
+    "C:\\Users\\Oficina\\Documents\\GitHub\\agr-proyecto\\ProyectoAgro.app\\ProyectoAgro.app.Persistencia\\ProyectoAgro.app.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\VitalHealth\\ProyectoAgro.app\\ProyectoAgro.app.Persistencia\\ProyectoAgro.app.Persistencia.csproj": {
+    "C:\\Users\\Oficina\\Documents\\GitHub\\agr-proyecto\\ProyectoAgro.app\\ProyectoAgro.app.Persistencia\\ProyectoAgro.app.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\VitalHealth\\ProyectoAgro.app\\ProyectoAgro.app.Persistencia\\ProyectoAgro.app.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\Oficina\\Documents\\GitHub\\agr-proyecto\\ProyectoAgro.app\\ProyectoAgro.app.Persistencia\\ProyectoAgro.app.Persistencia.csproj",
         "projectName": "ProyectoAgro.app.Persistencia",
-        "projectPath": "C:\\VitalHealth\\ProyectoAgro.app\\ProyectoAgro.app.Persistencia\\ProyectoAgro.app.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\VitalHealth\\ProyectoAgro.app\\ProyectoAgro.app.Persistencia\\obj\\",
+        "projectPath": "C:\\Users\\Oficina\\Documents\\GitHub\\agr-proyecto\\ProyectoAgro.app\\ProyectoAgro.app.Persistencia\\ProyectoAgro.app.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\Oficina\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oficina\\Documents\\GitHub\\agr-proyecto\\ProyectoAgro.app\\ProyectoAgro.app.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Oficina\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "netstandard2.1"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "netstandard2.1": {
             "projectReferences": {}
           }
         },
@@ -35,8 +34,29 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -48,11 +68,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.NETCore.App": {
+            "NETStandard.Library": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.412\\RuntimeIdentifierGraph.json"
         }
       }
     }
