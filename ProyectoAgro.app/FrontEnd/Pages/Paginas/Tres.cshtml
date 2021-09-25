@@ -2,81 +2,163 @@
 @model FrontEnd.Pages.TresModel
 @{
 }
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="RegistroFincayLote" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
-</head>
-<body>
-    <header>
-        <h1>
-            REGISTRO
-        </h>
-    </header>
-    <nav>
-         <section>
-        <h2>
-            FINCA
-        </h2>
-        <p>
-            Numero de Identificación
-        </p>
-        <input type="text" id="NumerodeIdentificacion" size="15">
-        <p>
-            Nombre de la Finca
-        </p>
-        <input type="text" id="NombredelaFinca" size="15">
-        <p>
-            Ubicacion
-        </p>
-        <input type="text" id="Ubicacion" size="15">
-        <p>
-            N° Lotes
-        </p>
-        <input type="number" name="NumerodeLotes">
-      
-
-            <p>
-                N° de Productos
-            </p>
-
-            <input type="number" name="NumerodeProductos">
-        
-        
-    </section>
-    <section>
-        <h2>
-            LOTE
-        </h2>
-        <p>
-            Numero de Lote
-        </p>
-        <input type="text" id="NumerodeLote" size="15">
-        <p>
-            Cantidad de cultivo
-        </p>
-<input type="number" name="CantidaddeCultivo">
-        <p>
-            Tipo de cultivo
-        </p>
-        <input type="text" id="TipodeCultivo" size="15">
-        <p>
-         Estado del Cultivo
-     </p>
-    <input type="radio" id="EnCrecimiento" name="EstadodelCultivo" value="En Crecimiento">
-    <label for="EnCrecimiento"> En Crecimiento </label>
-     <input type="radio" id="Produciendo" name="EstadodelCultivo" value="Produciendo">
-     <label for="Produciendo">Produciendo</label>
-      <input type="radio" id="Sinplantar" name="EstadodelCultivo" value="Sin Plantar">
-      <label for="Sinplantar"> Sin Plantar</label>
-    </section>
-     <input type="button" value="guardar" onclick="guardar()">
-
-    </nav>
-   
+ <center><h1>REGISTRO</h1> </center>
      
-</body>
-</html>
+<style type="text/css">
+    #contenedor{
+       
+        overflow: hidden;
+    }
+
+    
+    #izquierda{
+        
+        float:right;
+    }
+    
+    #derecha{
+        
+        float: left;
+    }
+
+</style>
+
+<div id="contenedor"> 
+    <div id="derecha">
+        <h2> FINCA </h2>
+      <table border="0" style="margin:  auto;">
+        
+        
+        <tr>
+            <td><p> Numero de identificacion</p></td>
+            <td> <p>     </p></td>
+           
+        </tr>
+      
+      
+      <tr> 
+      <td><input type="text" id= "nom_producto" size= "20"></td>
+          
+      
+      </tr>
+
+      <tr>
+            <td><p> Nombre Finca </p></td>
+            <td> <p>     </p></td>
+            <td><p> N° Lotes  </p></td>
+      
+      </tr>
+      
+      <tr> 
+      <td><input type="text" id= "num_materiald" size= "20"></td>
+          <td> <p>     </p></td>
+          
+     <td> <select name="Lista" id ="list"> 
+              <option value = "Opcion1"> Opcion1 </option>
+                <option value = "Opcion2"> Opcion2</option>
+                <option value = "Opcion3"> Opcion3</option>
+                <option value = "Opcion4"> Opcion4</option>
+              </select></td>
+      
+      </tr>
+
+      
+      
+      
+      
+      <tr> 
+      <td> <p> Tipo</p> </td>
+          <td> <p>     </p></td>
+            <td><p> N° Productos </p></td>
+            
+           
+      </tr>
+      <td><input type="text" id="tipo" size="20"></td>
+      <td><p>&nbsp;&nbsp;&nbsp;</p></td>
+          <td> <select name="Lista" id ="list"> 
+              <option value = "Opcion1"> Opcion1 </option>
+                <option value = "Opcion2"> Opcion2</option>
+                <option value = "Opcion3"> Opcion3</option>
+                <option value = "Opcion4"> Opcion4</option>
+              </select></td>
+    
+     
+    </table>
+   
+   
+    </div>
+     
+            
+
+    
+<div id="izquierda"> 
+    <h2> LOTE </h2>
+      <table border="0" style="margin:  auto;">
+        
+        
+       
+      
+      
+     
+
+      <tr>
+            <td><p> Numero de lote </p></td>
+            <td> <p>     </p></td>
+            <td><p> Cantidad Cultivo  </p></td>
+      
+      </tr>
+      
+      <tr> 
+       <td> <select name="Lista" id ="list"> 
+              <option value = "Opcion1"> Opcion1 </option>
+                <option value = "Opcion2"> Opcion2</option>
+                <option value = "Opcion3"> Opcion3</option>
+                <option value = "Opcion4"> Opcion4</option>
+              </select></td>
+          <td><p>&nbsp;&nbsp;&nbsp;</p></td>
+     <td> <select name="Lista" id ="list"> 
+              <option value = "Opcion1"> Opcion1 </option>
+                <option value = "Opcion2"> Opcion2</option>
+                <option value = "Opcion3"> Opcion3</option>
+                <option value = "Opcion4"> Opcion4</option>
+              </select></td>
+      
+      </tr>
+
+      
+      
+      
+      
+      <tr> 
+      <td> <p> Tipo de Cultivo </p> </td>
+            
+           
+      </tr>
+          
+      <td><input type="text" id="tipo" size="20"></td>
+      <td><p>&nbsp;&nbsp;&nbsp;</p></td>
+           <tr> 
+      <td> <p> Tipo de Cultivo </p> </td>
+            
+           
+      </tr>
+          <td> <select name="Lista" id ="list"> 
+              <option value = "Opcion1"> Opcion1 </option>
+                <option value = "Opcion2"> Opcion2</option>
+                <option value = "Opcion3"> Opcion3</option>
+                <option value = "Opcion4"> Opcion4</option>
+              </select></td>
+    
+     
+    </table>
+ 
+         </div>
+       </div>
+<table> 
+    <center> 
+        <br>
+    <input type="button" value="Siguiente" onclick="calcular()">
+    
+    </center>
+
+</table>
