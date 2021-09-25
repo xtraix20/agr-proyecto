@@ -25,7 +25,6 @@ C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\ob
 C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\FrontEnd.RazorCoreGenerate.cache
 C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
-C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\Pagina1.cshtml.g.cs
 C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
 C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
@@ -79,6 +78,17 @@ C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Deb
 C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\FrontEnd.pdb
 C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\FrontEnd.genruntimeconfig.cache
 C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\FrontEnd.csproj.CopyComplete
+<<<<<<< HEAD
+C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\cinco.cshtml.g.cs
+C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\Cuatro.cshtml.g.cs
+C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\diez.cshtml.g.cs
+C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\Dos.cshtml.g.cs
+C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\nueve.cshtml.g.cs
+C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\ocho.cshtml.g.cs
+C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\seis.cshtml.g.cs
+C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\siete.cshtml.g.cs
+C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\Tres.cshtml.g.cs
+=======
 C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\cinco.cshtml.g.cs
 C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\diez.cshtml.g.cs
 C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\nueve.cshtml.g.cs
@@ -88,3 +98,4 @@ C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Deb
 C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\Cuatro.cshtml.g.cs
 C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\Dos.cshtml.g.cs
 C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\obj\Debug\net5.0\Razor\Pages\Paginas\Tres.cshtml.g.cs
+>>>>>>> 659f97a761393cc468983a23a15dd945209cc0f9
