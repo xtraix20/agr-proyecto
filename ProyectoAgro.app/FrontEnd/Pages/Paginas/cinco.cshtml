@@ -2,3 +2,90 @@
 @model FrontEnd.Pages.cincoModel
 @{
 }
+<h1>
+<p align="center"> Registro de materiales  </p>
+
+</h1>
+
+
+  <table border="0" style="margin:  auto;">
+        
+        
+        <tr>
+            <td><p> Nombre del producto</p></td>
+            <td> <p>     </p></td>
+            <td><p> Cantidad Entrada </p></td>
+            
+        </tr>
+      
+      
+      <tr> 
+      <td><input type="text" id= "nom_producto" size= "35"></td>
+          <td> <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    </p></td>
+          
+     <td> <select name="Lista" id ="list"> 
+              <option value = "Opcion1"> Opcion1 </option>
+                <option value = "Opcion2"> Opcion2</option>
+                <option value = "Opcion3"> Opcion3</option>
+                <option value = "Opcion4"> Opcion4</option>
+              </select></td>
+      
+      </tr>
+
+      <tr>
+            <td><p> Numero del material</p></td>
+            <td> <p>     </p></td>
+            <td><p> Cantidad Salida </p></td>
+      
+      </tr>
+      
+      <tr> 
+      <td><input type="text" id= "num_materiald" size= "35"></td>
+          <td> <p>     </p></td>
+          
+     <td> <select name="Lista" id ="list"> 
+              <option value = "Opcion1"> Opcion1 </option>
+                <option value = "Opcion2"> Opcion2</option>
+                <option value = "Opcion3"> Opcion3</option>
+                <option value = "Opcion4"> Opcion4</option>
+              </select></td>
+      
+      </tr>
+
+      
+      
+      
+      <tr>
+          <td> <p> Precio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Fecha</p></td>
+          <td><p> </p></td>
+          <td> <p> Cantidad en bodega</p></td>
+
+      
+      </tr>
+      <tr> 
+      <td> <input type="text" id = "Precio" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id = "Fecha" size ="5"></td>
+      <td> </td>
+          <td> <select name="Lista" id ="list"> 
+              <option value = "Opcion1"> Opcion1 </option>
+                <option value = "Opcion2"> Opcion2</option>
+                <option value = "Opcion3"> Opcion3</option>
+                <option value = "Opcion4"> Opcion4</option>
+              </select></td>
+      </tr>
+        <tr>
+      <td> <p> Tipo</p> </td>
+            
+           
+      </tr>
+      <td><input type="text" id="tipo" size="30"></td>
+      <td><p>&nbsp;&nbsp;&nbsp;</p></td>
+      
+             <td> <input type="button" value="Siguiente" onclick="calcular()"></td>
+     <tr>
+         
+      <td> <input type="button" value="Guardar" onclick="calcular()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Actualizar" onclick="calcular()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Eliminar" onclick="calcular()"></td>
+         
+      </tr>
+    </table>
+
+
