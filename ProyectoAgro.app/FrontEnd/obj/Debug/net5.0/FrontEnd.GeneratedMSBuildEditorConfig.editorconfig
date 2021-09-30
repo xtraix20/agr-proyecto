@@ -7,8 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = FrontEnd
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\
-=======
-build_property.ProjectDir = C:\Users\Usuario\Documents\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\
->>>>>>> 2b539b5a99a1a6dae37846f891d04d536359d9cf
+build_property.ProjectDir = c:\Users\PC\OneDrive\Documentos\GitHub\agr-proyecto\ProyectoAgro.app\FrontEnd\
