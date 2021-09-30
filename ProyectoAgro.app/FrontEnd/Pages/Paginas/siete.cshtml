@@ -2,3 +2,51 @@
 @model FrontEnd.Pages.sieteModel
 @{
 }
+<h1>
+<p align="center"> Trazabilidad </p>
+
+</h1>
+
+
+  <table border="0" style="margin:  auto;">
+    <tr> 
+        <td><p> Lugar de Produccion </p> </td>
+        <td><p>  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+         <td><p>  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+        <td><p> Fecha de Produccion </p></td>
+      
+      </tr>
+      
+    <tr> 
+        <td> <input type="text" id="lugar_prod" size= "25"></td>
+         <td><p>  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+         <td><p>  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+        <td> <input type="text" id="fecha_prod" size= "25"></td>
+      </tr>
+      <tr> 
+        <td><p> Encargado </p> </td>
+        <td><p>  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+         <td><p>  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+        <td><p> Inversion </p></td>
+      
+      </tr>
+     <tr> 
+        <td> <input type="text" id="encargado" size= "25"></td>
+         <td><p>  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+         <td><p>  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
+        <td> <input type="text" id="inversion" size= "25"></td>
+      </tr>
+</table>
+
+<br>
+
+<table border="0" style="margin:  auto;">
+<tr>
+         
+      <td> <input type="button" value="Guardar" onclick="calcular()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Actualizar" onclick="calcular()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Eliminar" onclick="calcular()"></td>
+         
+      </tr>
+</table>
+<br>
+
+<center><input type="button" value="Siguiente" onclick="calcular()"></center>
