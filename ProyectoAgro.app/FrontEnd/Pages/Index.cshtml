@@ -3,20 +3,107 @@
 @{
     ViewData["Title"] = "Zona Agro";
 }
+
+<style type="text/css"> 
+    #Contenedor{
+        overflow: hidden;
+        
+        padding: 10px;
+    }
+    
+    
+    #Izquierda{
+         float: right;
+        
+        padding: 0px;
+        width: auto;
+        margin:auto;
+        background: #D2D6D1;
+        justify-content: center;
+        height:615px;
+        position: absolute;
+        
+        left:75%
+        
+    }
+       
+    
+    #Derecha{
+        float: left;
+        padding: 10px;
+        width: auto;
+        margin:auto;
+       
+    }
+    
+    #texto{
+         padding: 5px;
+        
+        text-align: center;
+        justify-content: center;
+        background:#ffffff;
+        line-height: 20px;
+       height: 120px;
+       
+    }
+    
+    </style>
+
 <center> 
-
-    
-    <h1>ZONA AGRO </h1>
+<div id="Derecha"> 
     
     
-
-   <center> <p> Registra aqui los datos de tu finca para prognosticar tus gaanncias y establecer tus costors de produccion</p></center> 
    
+    
+    
+   
+    </div>
+    
     </center>
     
         
-<center><table> 
+
+    <div id="Izquierda"> 
+    <table> 
+        
+        <tr> 
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+       <center>  <h1>ZONA AGRO </h1></center>
+    <br>
+   <div id=texto> <h4> Registra aqui los datos de tu finca para 
+        pronosticar tus ganancias y establecer 
+       tus costos de produccion. </h4> </div>
+            
+    <br> 
+    <br><br>
+        </tr>
+    <tr> 
+         
     
-    <button onclick="location.href='/Paginas/Dos'">Ingresar</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button onclick="location.href='/Paginas/Tres'">Registrarse</button>
-    </table></center>
+   <center>
+       <link rel="stylesheet"href="~/css/Index.css"  type="text/css"> 
+       <div class = "btn-item">  
+           <a href="/Paginas/Dos" class="btn-ghost round"> Ingresar</a>
+           <br><br><br><br>
+           
+        <a href="/Paginas/Tres" class="btn-ghost secondary round"> Registrar</a>
+           
+           
+     </div>
+           
+       </center>
+   
+        </tr>
+    </table>
+    </div>
+
+
+          
+
         
