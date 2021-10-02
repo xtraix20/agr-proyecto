@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://a1-agro.com/wp-content/uploads/2019/11/cropped-Tractor.jpg);   
+    background-size: cover;
+ 
+    font-family: sans-serif;
+}
+.texto{
+    float: left;
+    text-align: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    background: #BFBFBF;
+    height: 680px;
+}
+
+.btn-ghost{
+    font-size: 40px;
+    position: relative;
+    display: inline;
+    border: 2px solid var(--green);
+    padding: 30px 70px;
+    color:#FFFFFF;
+    font-weight:600;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #38A02B;
+}
+.btn-ghost.round{
+    border-radius: 30px;
+}
+.btn-ghost.dos{
+    border: 2px solid var(--red);
+    color: #FFFFFF ;
+    padding: 30px 70px;
+    background: #B91515;
+}
+.btn-ghost.tres{
+     border: 2px solid #601E97;
+    color: #FFFFFF ;
+    padding: 30px 70px;
+    background: #601E97;
+}
+
+.btn-ghost:hover{
+    color: #38A02B ;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+.btn-ghost.dos:hover{
+     color:#B91515 ;
+    background:#FFFFFF ;
+    text-decoration: none;
+}
+.btn-ghost.tres:hover{
+     color:#601E97 ;
+    background:#FFFFFF ;
+    text-decoration: none;
+}
