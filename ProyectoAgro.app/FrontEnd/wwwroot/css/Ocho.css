@@ -1,0 +1,23 @@
+#Izquierda{
+    float: right;
+   
+   padding: 0px;
+   width: auto;
+   margin:auto;
+   background:transparent;
+   justify-content: center;
+   height:750px;
+   position: absolute;
+   
+   left:58%
+   
+}
+  
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://snz04pap001files.storage.live.com/y4mTTRGO9VY3CScRHKG2eTWh6ywjw7cU-FJu8h0erAZvlymRp2K7O-OfbvoG3NI5KQFrgB7VsK80MabDWkfpEMIIiiWx90poasmC2dB7i1PHvj5tJOU0qWw1FMQe__en9X1iCmaSYkGBAzM4lzBGD88bHOVLbM8PPxjNPl--BW-K5mx_ZX2miK7NdmXkBB2Y5_jmjY2tVbWguZwRIL8smREeawIUDqzJaZk8eorf3ITM1w?width=997&height=621&cropmode=center);
+    background-size: cover;
+    font-family: sans-serif;
+}
