@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://agriculturers.com/wp-content/uploads/2019/05/El-negativo-impacto-de-la-agricultura-verde-europea-en-America-maiz-1000x500.jpg);   
+    background-size: cover;
+ 
+    font-family: sans-serif;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.registro{
+    width:400px;
+    background: #BFBFBF;
+    padding: 25px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    color: black;
+}
+      
+       
+.registro h1{
+      text-align: center;
+    padding: 5px;
+    font-size:40px;
+    
+    margin-bottom: 20px;
+    background: gray ;
+    width: 350px;
+    
+}
+    
+.controls{
+    width: 100%;
+  
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+  font-family: 'calibri';
+  font-size: 18px;
+  
+}
+
+.btn-ghost{
+    position: relative;
+    display: inline;
+    border: 2px solid var(--green);
+    padding: 15px 30px;
+    color:#FFFFFF;
+    font-weight:600;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #38A02B;
+}
+.btn-ghost.round{
+    border-radius: 30px;
+}
+
+.btn-ghost:hover{
+    color: #38A02B ;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+

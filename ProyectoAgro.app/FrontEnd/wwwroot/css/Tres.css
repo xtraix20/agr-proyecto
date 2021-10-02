@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://www.caracteristicas.co/wp-content/uploads/2018/09/cafe-2-e1578772193199.jpg);   
+    background-size: cover;
+ 
+    font-family: sans-serif;
+}
+
+.Registro h1{
+    text-align: center;
+    font-size: 27px;
+     width:250px;
+    background: #BFBFBF;
+    padding: 15px 35px;
+   
+    margin-top: 70px;
+    
+    font-family: "DM Sans", sans-serif;
+    color: black;
+}
+.btn-ghost{
+    position: relative;
+    display: inline;
+    border: 2px solid var(--red);
+    padding: 15px 30px;
+    color:#FFFFFF;
+    font-weight:600;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #B91515;
+}
+.btn-ghost.round{
+    border-radius: 30px;
+}
+
+.btn-ghost:hover{
+    color: #B91515 ;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+
+.controls{
+    width: 100%;
+  
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+  font-family: 'calibri';
+  font-size: 18px;
+}

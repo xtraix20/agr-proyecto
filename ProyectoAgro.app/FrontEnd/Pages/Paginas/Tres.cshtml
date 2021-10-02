@@ -2,8 +2,13 @@
 @model FrontEnd.Pages.TresModel
 @{
 }
- <center><h1>REGISTRO</h1> </center>
-     
+ 
+<section class="Registro"> 
+
+
+
+<h1>REGISTRO</h1> 
+     </section>
 <style type="text/css">
     #contenedor{
        
@@ -12,13 +17,32 @@
 
     
     #izquierda{
-        
+         background-color: hsla(0, 0%, 75%, .7);
         float:right;
+             width:400px;
+   
+    padding: 25px ;
+    margin: auto;
+    margin-top: 65px;
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    color: black;
+        margin-right: 70px;
+
     }
     
     #derecha{
-        
+         background-color: hsla(0, 0%, 75%, .7);
         float: left;
+        width:400px;
+  
+    padding: 25px;
+    margin: auto;
+    margin-top: 65px;
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    color: black;
+        margin-left: 70px;
     }
 
 </style>
@@ -37,7 +61,7 @@
       
       
       <tr> 
-      <td><input type="text" id= "nom_producto" size= "20"></td>
+      <td><input class="controls" type="text" id= "nom_producto" size= "20"></td>
           
       
       </tr>
@@ -50,10 +74,10 @@
       </tr>
       
       <tr> 
-      <td><input type="text" id= "num_materiald" size= "20"></td>
+      <td><input class="controls" type="text" id= "num_materiald" size= "20"></td>
           <td> <p>     </p></td>
           
-     <td> <select name="Lista" id ="list"> 
+     <td> <select class="controls" name="Lista" id ="list"> 
               <option value = "Opcion1"> Opcion1 </option>
                 <option value = "Opcion2"> Opcion2</option>
                 <option value = "Opcion3"> Opcion3</option>
@@ -73,9 +97,9 @@
             
            
       </tr>
-      <td><input type="text" id="tipo" size="20"></td>
+      <td><input class="controls" type="text" id="tipo" size="20"></td>
       <td><p>&nbsp;&nbsp;&nbsp;</p></td>
-          <td> <select name="Lista" id ="list"> 
+          <td> <select class="controls" name="Lista" id ="list"> 
               <option value = "Opcion1"> Opcion1 </option>
                 <option value = "Opcion2"> Opcion2</option>
                 <option value = "Opcion3"> Opcion3</option>
@@ -94,12 +118,7 @@
 <div id="izquierda"> 
     <h2> LOTE </h2>
       <table border="0" style="margin:  auto;">
-        
-        
-       
-      
-      
-     
+    
 
       <tr>
             <td><p> Numero de lote </p></td>
@@ -109,14 +128,14 @@
       </tr>
       
       <tr> 
-       <td> <select name="Lista" id ="list"> 
+       <td> <select class="controls" name="Lista" id ="list"> 
               <option value = "Opcion1"> Opcion1 </option>
                 <option value = "Opcion2"> Opcion2</option>
                 <option value = "Opcion3"> Opcion3</option>
                 <option value = "Opcion4"> Opcion4</option>
               </select></td>
           <td><p>&nbsp;&nbsp;&nbsp;</p></td>
-     <td> <select name="Lista" id ="list"> 
+     <td> <select class="controls" name="Lista" id ="list"> 
               <option value = "Opcion1"> Opcion1 </option>
                 <option value = "Opcion2"> Opcion2</option>
                 <option value = "Opcion3"> Opcion3</option>
@@ -135,14 +154,14 @@
            
       </tr>
           
-      <td><input type="text" id="tipo" size="20"></td>
+      <td><input class="controls" type="text" id="tipo" size="20"></td>
       <td><p>&nbsp;&nbsp;&nbsp;</p></td>
            <tr> 
       <td> <p> Tipo de Cultivo </p> </td>
             
            
       </tr>
-          <td> <select name="Lista" id ="list"> 
+          <td> <select class="controls" name="Lista" id ="list"> 
               <option value = "Opcion1"> Opcion1 </option>
                 <option value = "Opcion2"> Opcion2</option>
                 <option value = "Opcion3"> Opcion3</option>
@@ -156,9 +175,14 @@
        </div>
 <table> 
     <center> 
-        <br>
-    <button onclick="location.href='/Paginas/Cuatro'">guardar</button>
+        <br><br><br>
+    <div class = "btn-item">  
+       <center>  <a href="/Paginas/Cuatro" class="btn-ghost round"> Guardar</a></center>
+     </div>
     
     </center>
 
 </table>
+
+
+<link rel="stylesheet" href="~/css/Tres.css" type="text/css">
