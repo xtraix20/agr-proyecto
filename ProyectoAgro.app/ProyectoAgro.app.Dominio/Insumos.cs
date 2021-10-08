@@ -11,8 +11,7 @@ namespace ProyectoAgro.app.Dominio
         public int precioCompra {get;set;}
         public string fechaCompra {get;set;}
         public string tipo {get;set;}
-        
-        
+              
 
     }
 }

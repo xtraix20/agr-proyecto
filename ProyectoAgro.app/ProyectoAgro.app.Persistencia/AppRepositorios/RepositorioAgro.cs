@@ -1,9 +1,9 @@
 using System.Linq;
 using System.Collections.Generic;
-using ProyectoAgro.Dominio;
+using ProyectoAgro.app.Dominio;
 
 
-namespace ProyectoAgro.Persistencia
+namespace ProyectoAgro.app.Persistencia
 {
     public class RepositorioAgro: IRepositorioAgro
     {
