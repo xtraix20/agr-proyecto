@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+    background: url(https://cr00.epimg.net/radio/imagenes/2019/09/22/al_campo/1569106763_313563_1569106857_noticia_normal.jpg);   
+        
+    background-size: cover;
+ 
+    font-family: sans-serif;
+}
+.texto{
+    float: left;
+    text-align: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    background-color: hsla(0, 0%, 75%, .7);
+    height: 700px;
+}
+.Registro h1{
+    float: left;
+    text-align: center;
+     writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    height: 700px;
+    background-color: hsla(0, 0%, 75%, .7);
+    padding: 15px 35px;
+    
+    font-family: "DM Sans", sans-serif;
+    color: black;
+}
+.btn-ghost{
+   font-size: 15px;
+    position: relative;
+    display: inline;
+    border: 2px solid var(--green);
+    padding: 15px 30px;
+    color:#FFFFFF;
+    font-weight:600;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #1E7A97 ;
+}
+.btn-ghost.round{
+    border-radius: 30px;
+}
+.btn-ghost.dos{
+    border: 2px solid var(--red);
+    color: #FFFFFF ;
+    padding: 15px 30px;
+    background:#38A02B ;
+}
+.btn-ghost.tres{
+     border: 2px solid #601E97;
+    color: #FFFFFF ;
+    padding: 15px 30px;
+    background: #601E97;
+}
+.btn-ghost.cuatro{
+     border: 2px solid #B91515;
+    color: #FFFFFF ;
+    padding: 15px 30px;
+    background: #B91515;
+}
+
+.btn-ghost:hover{
+    color:  #B91515;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+.btn-ghost.dos:hover{
+     color:#38A02B ;
+    background:#FFFFFF ;
+    text-decoration: none;
+}
+.btn-ghost.tres:hover{
+     color:#601E97 ;
+    background:#FFFFFF ;
+    text-decoration: none;
+}
+.btn-ghost.cuatro:hover{
+     color:#B91515  ;
+    background:#FFFFFF ;
+    text-decoration: none;
+}
+.controls{
+    width: 100%;
+  
+  padding: 10px;
+  border-radius: 30px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+  font-family: 'calibri';
+  font-size: 18px;
+  
+}
