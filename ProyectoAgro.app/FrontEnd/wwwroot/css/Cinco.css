@@ -20,7 +20,7 @@ body{
     text-align: center;
      writing-mode: vertical-lr;
     transform: rotate(180deg);
-    height: 700px;
+    height: 590px;
     background-color: hsla(0, 0%, 75%, .7);
     padding: 15px 35px;
     
@@ -31,7 +31,7 @@ body{
    font-size: 15px;
     position: relative;
     display: inline;
-    border: 2px solid var(--green);
+    border: 2px solid #1E7A97;
     padding: 15px 30px;
     color:#FFFFFF;
     font-weight:600;
@@ -43,7 +43,7 @@ body{
     border-radius: 30px;
 }
 .btn-ghost.dos{
-    border: 2px solid var(--red);
+    border: 2px solid #38A02B;
     color: #FFFFFF ;
     padding: 15px 30px;
     background:#38A02B ;
@@ -62,7 +62,7 @@ body{
 }
 
 .btn-ghost:hover{
-    color:  #B91515;
+    color:  #1E7A97;
     background: #FFFFFF;
     text-decoration: none;
 }
@@ -84,11 +84,31 @@ body{
 .controls{
     width: 100%;
   
-  padding: 10px;
+  padding:  10px;
   border-radius: 30px;
   margin-bottom: 16px;
   border: 1px solid black;
   font-family: 'calibri';
   font-size: 18px;
   
+}
+.controls2{
+    width: 100%;
+  
+    padding:  10px;
+    border-radius: 30px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+.controls3{
+    width: 40%;
+  
+    padding:  10px ;
+    border-radius: 30px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: 'calibri';
+    font-size: 18px;
 }
