@@ -8,24 +8,26 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\proyectoagro.app\\frontend\\FrontEnd.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\FrontEnd.csproj",
       "projectName": "FrontEnd",
-      "projectPath": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\proyectoagro.app\\frontend\\FrontEnd.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\agr-proyecto\\proyectoagro.app\\frontend\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\FrontEnd.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\agr-proyecto\\ProyectoAgro.app\\FrontEnd\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
