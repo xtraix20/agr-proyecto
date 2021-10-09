@@ -2,13 +2,30 @@
 @model FrontEnd.Pages.diezModel
 @{
 }
-<h1>
-<p align="center"> Registro de Fertilizantes  </p>
+<div class ="Registro"> <h1>
+ Registro de fertilizantes
+</h1></div>
+<style type="text/css"> 
+    #Contenedor{
+        width: fit-content;
+    background-color: hsla(0, 0%, 75%, .7);
+    padding: 50px 100px;
+    margin: 10px;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    
+    color: black;
+    margin-left: 20%;
+}
+    
 
-</h1>
 
+</style>
 
+<div id=Contenedor>
   <table border="0" style="margin:  auto;">
+    
         
         
         <tr>
@@ -20,10 +37,10 @@
       
       
       <tr> 
-      <td><input type="text" id= "nom_producto" size= "35"></td>
-          <td> <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    </p></td>
+      <td><input class="controls" type="text" id= "nom_producto" size= "35"></td>
+          <td> <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;      </p></td>
           
-     <td> <select name="Lista" id ="list"> 
+     <td> <select class="controls2"name="Lista" id ="list"> 
               <option value = "Opcion1"> Opcion1 </option>
                 <option value = "Opcion2"> Opcion2</option>
                 <option value = "Opcion3"> Opcion3</option>
@@ -40,10 +57,10 @@
       </tr>
       
       <tr> 
-      <td><input type="text" id= "num_materiald" size= "35"></td>
+      <td><input class="controls"type="text" id= "num_material" size= "35"></td>
           <td> <p>     </p></td>
           
-     <td> <select name="Lista" id ="list"> 
+     <td> <select class="controls2" name="Lista" id ="list"> 
               <option value = "Opcion1"> Opcion1 </option>
                 <option value = "Opcion2"> Opcion2</option>
                 <option value = "Opcion3"> Opcion3</option>
@@ -56,38 +73,48 @@
       
       
       <tr>
-          <td> <p> Precio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;Fecha</p></td>
+          <td> <p> Precio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fecha </p></td>
           <td><p> </p></td>
           <td> <p> Cantidad en bodega</p></td>
 
       
       </tr>
       <tr> 
-      <td> <input type="text" id = "Precio" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;<input type="text" id = "Fecha" size ="5"></td>
+      <td> <input class="controls3"type="text" id = "Precio" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="controls3" type="text" id = "Fecha" size ="5"></td>
       <td> </td>
-          <td> <select name="Lista" id ="list"> 
+     <td> <select class="controls2"name="Lista" id ="list"> 
               <option value = "Opcion1"> Opcion1 </option>
                 <option value = "Opcion2"> Opcion2</option>
                 <option value = "Opcion3"> Opcion3</option>
                 <option value = "Opcion4"> Opcion4</option>
               </select></td>
       </tr>
+      
+      
         <tr>
       <td> <p> Tipo</p> </td>
             
            
       </tr>
-      <td><input type="text" id="tipo" size="30"></td>
-      <td><p>&nbsp;&nbsp;&nbsp;</p></td>
+      <tr> 
+      <td><input class="controls"type="text" id="tipo" size="30"></td>
+     <td> </td>
       
-             <td> <button onclick="location.href='/Paginas/seis'">siguiente</button></td>
+             <td> <a href="/Paginas/seis" class="btn-ghost round"> Siguiente --></a></td>
      
+     </tr>
     </table>
-   <center> <table> 
+    <br>
+    
+  <center>   <table> 
 <tr>
          
-      <td> <input type="button" value="Guardar" onclick="calcular()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Actualizar" onclick="calcular()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Eliminar" onclick="calcular()"></td>
+      <td> <a href="/Paginas/seis" class="btn-ghost dos round"> Guardar </a>&nbsp; &nbsp;&nbsp;</td><td> <a href="/Paginas/seis" class="btn-ghost tres round"> Actualizar</a>&nbsp;&nbsp;&nbsp; </td> <td> <a href="/Paginas/seis" class="btn-ghost cuatro round"> Eliminar</a>&nbsp;&nbsp;&nbsp;</td>
          
       </tr>
-   </table></center>
+   </table>
+   </center>
+</div>
+
+<link rel="stylesheet" href="~/css/Diez.css" type="text/css">
 
