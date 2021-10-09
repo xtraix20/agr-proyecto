@@ -2,7 +2,94 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(https://snz04pap001files.storage.live.com/y4mFzdtkjmOp8CRh-N7pncByvElA3pYjvJElbN3rpZ_-RON4Cl9HuV1IoZsU6mWd71nUkRxljzge6wshTSlBXX4PxSq6H-GeBTp8EsCzTb0w6UX4zxhPnrQ4iocSKW9NYdMr3slYvJCrLBn2Q0D6yI15wVxGlMbf7mI5IB517z-6xR92ivQKs6OVIdJHHcYwyl4VJDpe1DJYNIIr4wuKqdFk05zU1AG-tPWe8RXG7R-7Bo?width=1002&height=621&cropmode=center);
+    background-image: url(https://cdn.euroinnova.edu.es/img/subidasEditor/cursos%20en%20trabajos%20de%20campo-1604567139.webp);
     background-size: cover;
     font-family: sans-serif;
 }
+.texto{
+    float: left;
+    text-align: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    background-color: hsla(0, 0%, 75%, .7);
+    height: 700px;
+    margin-left: 2px;
+}
+.Registro h1{
+    float: left;
+    text-align: center;
+     writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    height: 590px;
+    background-color: hsla(0, 0%, 75%, .7);
+    padding: 15px 35px;
+    
+    font-family: "DM Sans", sans-serif;
+    color: black;
+    margin-left: 2px;
+} 
+.controls{
+    width: 100%;
+  
+  padding:  10px;
+  border-radius: 30px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+  font-family: 'calibri';
+  font-size: 18px;
+  
+}
+.btn-ghost{
+    font-size: 15px;
+     position: relative;
+     display: inline;
+     border: 2px solid #1E7A97;
+     padding: 15px 30px;
+     color:#FFFFFF;
+     font-weight:600;
+     text-transform: uppercase;
+     text-decoration: none;
+     background: #1E7A97 ;
+ }
+ .btn-ghost.round{
+     border-radius: 30px;
+ }
+ .btn-ghost.dos{
+     border: 2px solid #38A02B;
+     color: #FFFFFF ;
+     padding: 15px 30px;
+     background:#38A02B ;
+ }
+ .btn-ghost.tres{
+      border: 2px solid #601E97;
+     color: #FFFFFF ;
+     padding: 15px 30px;
+     background: #601E97;
+ }
+ .btn-ghost.cuatro{
+      border: 2px solid #B91515;
+     color: #FFFFFF ;
+     padding: 15px 30px;
+     background: #B91515;
+ }
+ 
+ .btn-ghost:hover{
+     color:  #1E7A97;
+     background: #FFFFFF;
+     text-decoration: none;
+ }
+ .btn-ghost.dos:hover{
+      color:#38A02B ;
+     background:#FFFFFF ;
+     text-decoration: none;
+ }
+ .btn-ghost.tres:hover{
+      color:#601E97 ;
+     background:#FFFFFF ;
+     text-decoration: none;
+ }
+ .btn-ghost.cuatro:hover{
+      color:#B91515  ;
+     background:#FFFFFF ;
+     text-decoration: none;
+ }

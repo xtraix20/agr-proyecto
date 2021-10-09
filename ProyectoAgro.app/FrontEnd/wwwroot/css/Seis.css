@@ -2,7 +2,104 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(https://snz04pap001files.storage.live.com/y4mfY0ETGqrwukpoGaLLSTCWIKJwivad48gPWeetppc0PKcWGP_k7S1To36QOGNdxF2cj2bS9b7qVJB-JQ0jd0SZnm3zJkvk9KS5AzanhpS-hOC9RC3d7jKbHheYec9_bGS0mWWZOOxhjufLEGjVJdTFvrHCtXMukQPw_LgCIaKAFGzRXQ2hvKbmH3sxRzQwNRt5ihOP5fcrIduqyGD-NPCWqGhGtbiqOBNPt60VQjXN2g?width=1014&height=621&cropmode=center);
+    background-image: url(https://www.celag.org/wp-content/uploads/2017/07/Campo-Colombia.jpg);
     background-size: cover;
     font-family: sans-serif;
 }
+.texto{
+    float: left;
+    text-align: center;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    background-color: hsla(0, 0%, 75%, .7);
+    height: 700px;
+    margin-left: 2px;
+}
+.Registro h1{
+    float: left;
+    text-align: center;
+     writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    height: 590px;
+    background-color: hsla(0, 0%, 75%, .7);
+    padding: 15px 35px;
+    
+    font-family: "DM Sans", sans-serif;
+    color: black;
+    margin-left: 2px;
+}
+.controls{
+    width: 100%;
+  
+  padding:  10px;
+  border-radius: 30px;
+  margin-bottom: 16px;
+  border: 1px solid black;
+  font-family: 'calibri';
+  font-size: 18px;
+  
+}
+.controls2{
+    width: 100%;
+  
+    padding:  10px;
+    border-radius: 30px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+.btn-ghost{
+    font-size: 15px;
+     position: relative;
+     display: inline;
+     border: 2px solid #1E7A97;
+     padding: 15px 30px;
+     color:#FFFFFF;
+     font-weight:600;
+     text-transform: uppercase;
+     text-decoration: none;
+     background: #1E7A97 ;
+ }
+ .btn-ghost.round{
+     border-radius: 30px;
+ }
+ .btn-ghost.dos{
+     border: 2px solid #38A02B;
+     color: #FFFFFF ;
+     padding: 15px 30px;
+     background:#38A02B ;
+ }
+ .btn-ghost.tres{
+      border: 2px solid #601E97;
+     color: #FFFFFF ;
+     padding: 15px 30px;
+     background: #601E97;
+ }
+ .btn-ghost.cuatro{
+      border: 2px solid #B91515;
+     color: #FFFFFF ;
+     padding: 15px 30px;
+     background: #B91515;
+ }
+ 
+ .btn-ghost:hover{
+     color:  #1E7A97;
+     background: #FFFFFF;
+     text-decoration: none;
+ }
+ .btn-ghost.dos:hover{
+      color:#38A02B ;
+     background:#FFFFFF ;
+     text-decoration: none;
+ }
+ .btn-ghost.tres:hover{
+      color:#601E97 ;
+     background:#FFFFFF ;
+     text-decoration: none;
+ }
+ .btn-ghost.cuatro:hover{
+      color:#B91515  ;
+     background:#FFFFFF ;
+     text-decoration: none;
+ }

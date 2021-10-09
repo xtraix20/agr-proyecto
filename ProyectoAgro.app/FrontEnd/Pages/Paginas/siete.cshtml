@@ -2,15 +2,29 @@
 @model FrontEnd.Pages.sieteModel
 @{
 }
-
+<div class="Registro"> <h1>
+ Trazabilidad </h1></div>
 
 <link rel="stylesheet" href="~/css/Siete.css" type="text/css">
-<h1>
-<p align="center"> Trazabilidad </p>
+<style type="text/css"> 
+    #Contenedor{
+        width: 70%;
+    background-color: hsla(0, 0%, 75%, .7);
+    padding: 50px 3px;
+    
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    font-size: large;
+    color: black;
+    margin-left: 20%;
+}
+    
 
-</h1>
 
+</style>
 
+<div id="Contenedor">
   <table border="0" style="margin:  auto;">
     <tr> 
         <td><p> Lugar de Produccion </p> </td>
@@ -21,10 +35,10 @@
       </tr>
       
     <tr> 
-        <td> <input type="text" id="lugar_prod" size= "25"></td>
+        <td> <input class="controls" type="text" id="lugar_prod" size= "25"></td>
          <td><p>  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
          <td><p>  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
-        <td> <input type="text" id="fecha_prod" size= "25"></td>
+        <td> <input class="controls" type="text" id="fecha_prod" size= "25"></td>
       </tr>
       <tr> 
         <td><p> Encargado </p> </td>
@@ -34,10 +48,10 @@
       
       </tr>
      <tr> 
-        <td> <input type="text" id="encargado" size= "25"></td>
+        <td> <input class="controls"  type="text" id="encargado" size= "25"></td>
          <td><p>  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
          <td><p>  &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p></td>
-        <td> <input type="text" id="inversion" size= "25"></td>
+        <td> <input class="controls" type="text" id="inversion" size= "25"></td>
       </tr>
 </table>
 
@@ -46,10 +60,11 @@
 <table border="0" style="margin:  auto;">
 <tr>
          
-      <td> <input type="button" value="Guardar" onclick="calcular()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Actualizar" onclick="calcular()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="button" value="Eliminar" onclick="calcular()"></td>
+      <td> <a href="" class="btn-ghost dos round"> Guardar </a>&nbsp;&nbsp;&nbsp;</td><td> <a href="" class="btn-ghost tres round"> Actualizar</a>&nbsp;&nbsp;&nbsp;</td> <td> <a href="" class="btn-ghost cuatro round"> Eliminar</a>&nbsp;&nbsp;&nbsp;</td>
          
       </tr>
 </table>
 <br>
 
-<center><button onclick="location.href='/Paginas/ocho'">siguiente</button></center>
+<center><a href="" class="btn-ghost round"> Siguiente --></a></center>
+</div>
