@@ -14,7 +14,19 @@ body{
     background: #BFBFBF;
     height: 680px;
 }
-
+.Perfil{
+    float: right;
+    text-align: center;
+    font-size: 15px;
+     width:250px;
+    
+    padding: 15px 35px;
+   
+    margin-top: 55px;
+    
+    font-family: "DM Sans", sans-serif;
+    color: black;
+}
 .btn-ghost{
     font-size: 40px;
     position: relative;
@@ -42,7 +54,13 @@ body{
     padding: 30px 70px;
     background: #601E97;
 }
-
+.btn-ghost.cuatro{
+    font-size: 30px;
+    border: 2px solid #1E7A97;
+   color: #FFFFFF ;
+   padding: 10px 20px;
+   background: #1E7A97;
+}
 .btn-ghost:hover{
     color: #38A02B ;
     background: #FFFFFF;
@@ -57,4 +75,9 @@ body{
      color:#601E97 ;
     background:#FFFFFF ;
     text-decoration: none;
+}
+.btn-ghost.cuatro:hover{
+    color: #1E7A97 ;
+   background:#FFFFFF ;
+   text-decoration: none;
 }

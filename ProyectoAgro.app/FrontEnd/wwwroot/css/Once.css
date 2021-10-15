@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(https://cr00.epimg.net/radio/imagenes/2019/09/22/al_campo/1569106763_313563_1569106857_noticia_normal.jpg);   
+        
+    background-size: cover;
+ 
+    font-family: sans-serif;
+}
+.Registro h1{
+    text-align: center;
+    font-size: 27px;
+     width:250px;
+    background: #BFBFBF;
+    padding: 15px 35px;
+   
+    margin-top: 70px;
+    
+    font-family: "DM Sans", sans-serif;
+    color: black;
+}
