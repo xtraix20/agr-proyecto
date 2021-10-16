@@ -2,118 +2,81 @@
 @model FrontEnd.pages.OnceModel
 @{
 }
-<div class ="Registro"> <h1>
+
+    <section class="Perfil"> 
+<a href="/Paginas/Cuatro" class="btn-ghost dos round"> Volver</a>
+     </section>
+
+ <div class ="Registro"> <h1>
  Perfil
 </h1></div>
+
+
 <style type="text/css"> 
     #Contenedor{
         width: fit-content;
     background-color: hsla(0, 0%, 75%, .7);
     padding: 50px 100px;
     margin: 10px;
-    margin-top: 100px;
+    margin-top: 50px;
     border-radius: 4px;
     font-family: "DM Sans", sans-serif;
     
     color: black;
-    margin-left: 20%;
+    margin-left: 2%;
 }
-    
-
-
 </style>
 
 <div id=Contenedor>
-  <table border="0" style="margin:  auto;">
-    
-        
-        
+    <center>
+  <table border="0" style="margin:  auto;"> 
         <tr>
-            <td><p> Nombre del producto</p></td>
-            <td> <p>     </p></td>
-            <td><p> Cantidad Entrada </p></td>
+            <td><p> Nombre de la finca &nbsp;&nbsp;</p></td>
+            <td> <input class="controls" type="text" id= "nom_producto" size= "30"readonly="readonly"></td>
+            <td> <p>&nbsp;&nbsp; </p></td>
+            <td><p> N° Lotes</p></td>
+            <td> <input class="controls" type="text" id= "nom_producto" size= "30"readonly="readonly"></td>
             
         </tr>
       
       
       <tr> 
-      <td><input class="controls" type="text" id= "nom_producto" size= "35"></td>
-          <td> <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;&nbsp;      </p></td>
-          
-     <td> <select class="controls2"name="Lista" id ="list"> 
-              <option value = "Opcion1"> Opcion1 </option>
-                <option value = "Opcion2"> Opcion2</option>
-                <option value = "Opcion3"> Opcion3</option>
-                <option value = "Opcion4"> Opcion4</option>
-              </select></td>
-      
+          <td> <p> Ubicacion   </p></td>
+          <td> <input class="controls" type="text" id= "nom_producto" size= "30"readonly="readonly"></td>
+            <td> <p> &nbsp;&nbsp;</p></td>
+            <td><p> N° Producto &nbsp;&nbsp;&nbsp;&nbsp;</p></td>
+            <td> <input class="controls" type="text" id= "nom_producto" size= "30"readonly="readonly"></td>
       </tr>
+      </table>
+      </center>
+   </div>
 
-      <tr>
-            <td><p> Numero del material</p></td>
-            <td> <p>     </p></td>
-            <td><p> Cantidad Salida </p></td>
-      
-      </tr>
-      
-      <tr> 
-      <td><input class="controls"type="text" id= "num_material" size= "35"></td>
-          <td> <p>     </p></td>
-          
-     <td> <select class="controls2" name="Lista" id ="list"> 
-              <option value = "Opcion1"> Opcion1 </option>
-                <option value = "Opcion2"> Opcion2</option>
-                <option value = "Opcion3"> Opcion3</option>
-                <option value = "Opcion4"> Opcion4</option>
-              </select></td>
-      
-      </tr>
 
-      
-      
-      
-      <tr>
-          <td> <p> Precio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fecha </p></td>
-          <td><p> </p></td>
-          <td> <p> Cantidad en bodega</p></td>
-
-      
-      </tr>
-      <tr> 
-      <td> <input class="controls3"type="text" id = "Precio" size="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="controls3" type="text" id = "Fecha" size ="5"></td>
-      <td> </td>
-     <td> <select class="controls2"name="Lista" id ="list"> 
-              <option value = "Opcion1"> Opcion1 </option>
-                <option value = "Opcion2"> Opcion2</option>
-                <option value = "Opcion3"> Opcion3</option>
-                <option value = "Opcion4"> Opcion4</option>
-              </select></td>
-      </tr>
-      
-      
+<div class ="Lotes">
+    <table> 
         <tr>
-      <td> <p> Tipo</p> </td>
-            
-           
-      </tr>
-      <tr> 
-      <td><input class="controls"type="text" id="tipo" size="30"></td>
-     <td> </td>
-      
-             <td> <a href="/Paginas/seis" class="btn-ghost round"> Siguiente --></a></td>
-     
-     </tr>
-    </table>
-    <br>
-    
-  <center>   <table> 
-<tr>
-         
-      <td> <a href="/Paginas/seis" class="btn-ghost dos round"> Guardar </a>&nbsp; &nbsp;&nbsp;</td><td> <a href="/Paginas/seis" class="btn-ghost tres round"> Actualizar</a>&nbsp;&nbsp;&nbsp; </td> <td> <a href="/Paginas/seis" class="btn-ghost cuatro round"> Eliminar</a>&nbsp;&nbsp;&nbsp;</td>
-         
-      </tr>
-   </table>
-   </center>
+     <td> <h1>Registro de lotes</h1> </td>
+     <td> <p> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p> </td> 
+     <td>  </td>
+</tr>
+</table>
 </div>
+<center>
+<div id=Contenedor>
+    
+  <table border="0" style="margin:  auto;"> 
+        
+           <tr>  <td><input class="controls" type="text" id= "nom_producto" size= "30"readonly="readonly"></td></tr>
+            <tr><td> <input class="controls" type="text" id= "nom_producto" size= "30"readonly="readonly"></td></tr>
+           <tr> <td> <input class="controls" type="text" id= "nom_producto" size= "30"readonly="readonly"></td></tr>
+    
+            <tr><td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Paginas/Doce" class="btn-ghost round"> Crear Lote</a></td></tr>
+      
+      
+      </table>
+      
+   </div>
+</center>
+
 
 <link rel="stylesheet" href="~/css/Once.css" type="text/css">

@@ -17,32 +17,6 @@ body{
     font-family: "DM Sans", sans-serif;
     color: black;
 }
-.Lotes h1{
-    
-    text-align: center;
-    font-size: 27px;
-     width: 350px;
-    background: #BFBFBF;
-    padding: 15px 50px;
-   
-    margin-top: 70px;
-    
-    font-family: "DM Sans", sans-serif;
-    color: black;
-}
-.Perfil{
-    float: right;
-    text-align: center;
-    font-size: 15px;
-     width:250px;
-    
-    padding: 15px 35px;
-   
-    margin-top: 55px;
-    
-    font-family: "DM Sans", sans-serif;
-    color: black;
-}
 .controls{
     width: 100%;
   

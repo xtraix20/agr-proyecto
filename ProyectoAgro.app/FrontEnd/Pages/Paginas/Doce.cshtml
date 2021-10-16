@@ -1,0 +1,68 @@
+﻿@page
+@model FrontEnd.pages.DoceModel
+@{
+}
+
+
+ <div class ="Registro"> <h1>
+ Perfil
+</h1></div>
+
+
+<style type="text/css"> 
+    #Contenedor{
+        width: fit-content;
+    background-color: hsla(0, 0%, 75%, .7);
+    padding: 50px 100px;
+    margin: 10px;
+    margin-top: 50px;
+    border-radius: 4px;
+    font-family: "DM Sans", sans-serif;
+    
+    color: black;
+    margin-left: 2%;
+}
+</style>
+
+<div id=Contenedor>
+    <center>
+  <table border="0" style="margin:  auto;"> 
+        <tr>
+            <td><p> ID Lote&nbsp;&nbsp;</p></td>
+            <td> <input class="controls" type="text" id= "nom_producto" size= "30"readonly="readonly"></td>
+            <td> <p>&nbsp;&nbsp; </p></td>
+            <td><p> Tipo de Cultivo</p></td>
+            <td> <input class="controls" type="text" id= "nom_producto" size= "30"readonly="readonly"></td>
+            
+        </tr>
+      
+      
+      <tr> 
+          <td> <p> Estado de Cultivo  </p></td>
+          <td> <select class="controls" name="Lista" id ="list"> 
+              <option value = "Seleccionar"> Seleccionar </option>
+              <option value = "Crecimiento"> Crecimiento </option>
+                <option value = "Produciendo"> Produciendo</option>
+                <option value = "Sin Plantar"> Sin Plantar</option>
+                
+              </select></td>
+            <td> <p> &nbsp;&nbsp;</p></td>
+            <td><p> Cantidad de cultivo &nbsp;&nbsp;&nbsp;&nbsp;</p></td>
+            <td> <select class="controls" name="Lista" id ="list"> 
+              <option value = "Seleccionar"> Seleccionar </option>
+                <option value = "Opcion2"> Opcion2</option>
+                <option value = "Opcion3"> Opcion3</option>
+                <option value = "Opcion4"> Opcion4</option>
+              </select></td>
+      </tr>
+      <tr> <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+           <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="/Paginas/Once" class="btn-ghost dos round"> Volver</a></td>
+        <td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+     <td> <a href="/Paginas/Once" class="btn-ghost round">Guardar</a></td>
+       </tr>
+      </table>
+      </center>
+   </div>
+  
+
+<link rel="stylesheet" href="~/css/Doce.css" type="text/css">
